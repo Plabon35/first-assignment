@@ -1,0 +1,198 @@
+/* all style start */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace,sans-serif;
+}
+
+.banner-area{
+    max-width: 100%;
+    height: 652px;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-section{
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.content-section img{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.content-section h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+.content-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.content-section button{
+    width: 208px;
+    font-size: 20px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+.main-section{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+}
+.main-section-content{
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.main-section-content-one{
+    width: 852px;
+    height: 115px;
+    text-align: center;
+    margin: 40px auto;
+}
+.main-section-content-one h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.main-section-content-one p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.main-section-content-two{
+    margin-top: 30px;
+    padding: 48px;
+    display: flex;
+    margin: 0 auto;
+    gap: 100px;
+}
+.content-two-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content-two-text h4{
+    width: 390px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.content-two-text p{
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.content-two-text button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.main-section-content-three{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 80px;
+}
+.content-three-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.content-three-text h4{
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.content-three-text p{
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.content-three-text button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
